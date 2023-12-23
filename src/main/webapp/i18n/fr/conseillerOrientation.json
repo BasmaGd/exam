@@ -1,0 +1,29 @@
+{
+  "appApp": {
+    "conseillerOrientation": {
+      "home": {
+        "title": "ConseillerOrientations",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Conseiller Orientation",
+        "createOrEditLabel": "Créer ou éditer un Conseiller Orientation",
+        "notFound": "Aucun Conseiller Orientation trouvé"
+      },
+      "created": "Un nouveau Conseiller Orientation a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Conseiller Orientation avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Conseiller Orientation avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer le Conseiller Orientation {{ id }} ?"
+      },
+      "detail": {
+        "title": "Conseiller Orientation"
+      },
+      "id": "ID",
+      "nomConseiller": "Nom Conseiller",
+      "prenom": "Prenom",
+      "domaineExpertise": "Domaine Expertise",
+      "coordonnees": "Coordonnees",
+      "carriere": "Carriere",
+      "filiereEtudes": "Filiere Etudes"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "annotations": {
+    "changelogDate": "20231223204147"
+  },
+  "applications": "*",
+  "entityTableName": "conseiller_orientation",
+  "fields": [
+    {
+      "fieldName": "nomConseiller",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "prenom",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "domaineExpertise",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "coordonnees",
+      "fieldType": "String"
+    }
+  ],
+  "name": "ConseillerOrientation",
+  "relationships": [
+    {
+      "otherEntityName": "carriere",
+      "otherEntityRelationshipName": "nomConseiller",
+      "relationshipName": "carriere",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "filiereEtudes",
+      "otherEntityRelationshipName": "nomConseiller",
+      "relationshipName": "filiereEtudes",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "searchEngine": "no"
+}

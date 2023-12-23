@@ -1,0 +1,51 @@
+{
+  "annotations": {
+    "changelogDate": "20231223203747"
+  },
+  "applications": "*",
+  "entityTableName": "etudiant",
+  "fields": [
+    {
+      "fieldName": "nom",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "prenom",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "email",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "choixDeCarriere",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "progressionAcademique",
+      "fieldType": "Float"
+    }
+  ],
+  "name": "Etudiant",
+  "relationships": [
+    {
+      "otherEntityName": "carriere",
+      "relationshipName": "nomCariere",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "filiereEtudes",
+      "relationshipName": "nomFiliere",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "cours",
+      "relationshipName": "nomCours",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no"
+}

@@ -17,7 +17,15 @@
     <property name="datetimeType" value="datetime(6)" dbms="mysql"/>
 
     <include file="config/liquibase/changelog/00000000000000_initial_schema.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20231223203747_added_entity_Etudiant.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20231223203847_added_entity_Carriere.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20231223203947_added_entity_FiliereEtudes.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20231223204047_added_entity_Cours.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20231223204147_added_entity_ConseillerOrientation.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
+    <include file="config/liquibase/changelog/20231223203747_added_entity_constraints_Etudiant.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20231223203847_added_entity_constraints_Carriere.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20231223203947_added_entity_constraints_FiliereEtudes.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-constraints-changelog - JHipster will add liquibase constraints changelogs here -->
     <!-- jhipster-needle-liquibase-add-incremental-changelog - JHipster will add incremental liquibase changelogs here -->
 </databaseChangeLog>

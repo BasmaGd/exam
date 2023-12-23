@@ -1,0 +1,28 @@
+{
+  "appApp": {
+    "filiereEtudes": {
+      "home": {
+        "title": "Filiere Etudes",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Filiere Etudes",
+        "createOrEditLabel": "Create or edit a Filiere Etudes",
+        "notFound": "No Filiere Etudes found"
+      },
+      "created": "A new Filiere Etudes is created with identifier {{ param }}",
+      "updated": "A Filiere Etudes is updated with identifier {{ param }}",
+      "deleted": "A Filiere Etudes is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Filiere Etudes {{ id }}?"
+      },
+      "detail": {
+        "title": "Filiere Etudes"
+      },
+      "id": "ID",
+      "nomFiliere": "Nom Filiere",
+      "description": "Description",
+      "etudiant": "Etudiant",
+      "coursRequis": "Cours Requis",
+      "nomConseiller": "Nom Conseiller"
+    }
+  }
+}

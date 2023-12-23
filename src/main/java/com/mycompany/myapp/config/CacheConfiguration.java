@@ -48,6 +48,18 @@ public class CacheConfiguration {
             createCache(cm, com.mycompany.myapp.domain.User.class.getName());
             createCache(cm, com.mycompany.myapp.domain.Authority.class.getName());
             createCache(cm, com.mycompany.myapp.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.mycompany.myapp.domain.Etudiant.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.Carriere.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.Carriere.class.getName() + ".etudiants");
+            createCache(cm, com.mycompany.myapp.domain.FiliereEtudes.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.FiliereEtudes.class.getName() + ".etudiants");
+            createCache(cm, com.mycompany.myapp.domain.FiliereEtudes.class.getName() + ".coursRequis");
+            createCache(cm, com.mycompany.myapp.domain.Cours.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.Cours.class.getName() + ".etudiants");
+            createCache(cm, com.mycompany.myapp.domain.Cours.class.getName() + ".filiereEtudes");
+            createCache(cm, com.mycompany.myapp.domain.ConseillerOrientation.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.ConseillerOrientation.class.getName() + ".carrieres");
+            createCache(cm, com.mycompany.myapp.domain.ConseillerOrientation.class.getName() + ".filiereEtudes");
             // jhipster-needle-ehcache-add-entry
         };
     }

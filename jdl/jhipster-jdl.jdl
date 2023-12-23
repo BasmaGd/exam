@@ -1,0 +1,42 @@
+entity Etudiant {
+  nom String,
+  prenom String,
+  email String,
+  choixDeCarriere String,
+  progressionAcademique Float
+}
+
+entity Carriere {
+  nomCariere String,
+  prerequisAcademiques String
+}
+
+entity FiliereEtudes {
+  nomFiliere String,
+  description String
+}
+
+entity Cours {
+  nomCours String,
+  description String
+}
+
+entity ConseillerOrientation {
+  nomConseiller String,
+  prenom String,
+  domaineExpertise String,
+  coordonnees String
+}
+
+
+relationship ManyToMany {
+  FiliereEtudes{coursRequis} to Cours{filiereEtudes}
+}
+relationship OneToMany{
+Carriere to Etudiant{nomCariere},
+FiliereEtudes to Etudiant{nomFiliere},
+Cours to Etudiant{nomCours},
+ConseillerOrientation to Carriere{nomConseiller},
+ConseillerOrientation to FiliereEtudes{nomConseiller}
+}
+

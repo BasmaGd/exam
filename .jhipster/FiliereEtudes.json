@@ -1,0 +1,41 @@
+{
+  "annotations": {
+    "changelogDate": "20231223203947"
+  },
+  "applications": "*",
+  "entityTableName": "filiere_etudes",
+  "fields": [
+    {
+      "fieldName": "nomFiliere",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    }
+  ],
+  "name": "FiliereEtudes",
+  "relationships": [
+    {
+      "otherEntityName": "etudiant",
+      "otherEntityRelationshipName": "nomFiliere",
+      "relationshipName": "etudiant",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "cours",
+      "otherEntityRelationshipName": "filiereEtudes",
+      "relationshipName": "coursRequis",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-many"
+    },
+    {
+      "otherEntityName": "conseillerOrientation",
+      "relationshipName": "nomConseiller",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no"
+}

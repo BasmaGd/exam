@@ -1,0 +1,27 @@
+{
+  "appApp": {
+    "carriere": {
+      "home": {
+        "title": "Carrieres",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Carriere",
+        "createOrEditLabel": "Créer ou éditer un Carriere",
+        "notFound": "Aucun Carriere trouvé"
+      },
+      "created": "Un nouveau Carriere a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Carriere avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Carriere avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer le Carriere {{ id }} ?"
+      },
+      "detail": {
+        "title": "Carriere"
+      },
+      "id": "ID",
+      "nomCariere": "Nom Cariere",
+      "prerequisAcademiques": "Prerequis Academiques",
+      "etudiant": "Etudiant",
+      "nomConseiller": "Nom Conseiller"
+    }
+  }
+}
