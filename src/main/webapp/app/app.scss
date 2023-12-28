@@ -30,8 +30,11 @@ a {
     overflow-y: auto;
     overflow-x: hidden;
     padding: 1rem;
+    // background-image: url('content/images/R.jpg'); /* Replace with the actual path to your image */
+    background-color: black; /* Set background color to transparent */
     .card {
-      padding: 1rem;
+      padding: 0.5rem; /* Réduire le rembourrage pour minimiser la taille */
+      margin-bottom: 0.5rem; /* Ajouter une marge inférieure pour séparer les cartes */
     }
     .view-routes {
       height: 100%;
@@ -59,7 +62,7 @@ Browser Upgrade Prompt
 
 .browserupgrade {
   margin: 0.2em 0;
-  background: #ccc;
+  background: black;
   color: #000;
   padding: 0.2em 0;
 }

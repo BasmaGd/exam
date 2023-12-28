@@ -5,6 +5,51 @@ Main page styles
   display: inline-block;
   width: 100%;
   height: 497px;
-  background: url('/content/images/jhipster_family_member_1.svg') no-repeat center top;
+  background: url('/content/images/R.jpg') no-repeat center top;
   background-size: contain;
+}
+// home.scss
+
+.pad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hipster {
+  width: 200px; /* Ajustez la taille en fonction de vos besoins */
+  height: 200px; /* Ajustez la taille en fonction de vos besoins */
+  border-radius: 50%;
+  background-color: #f0f0f0; /* Couleur de fond */
+  /* Ajoutez ici votre image ou configuration spécifique */
+}
+
+.home-content {
+  padding: 20px; /* Espace intérieur */
+}
+
+.home-title {
+  font-size: 2.5rem; /* Taille de police pour le titre */
+  margin-bottom: 20px; /* Marge inférieure pour séparer le titre du contenu */
+}
+
+.home-subtitle {
+  font-size: 1.2rem; /* Taille de police pour le sous-titre */
+  color: #555; /* Couleur du texte */
+  margin-bottom: 30px; /* Marge inférieure pour séparer le sous-titre du contenu */
+}
+
+.alert-message {
+  margin-bottom: 20px; /* Marge inférieure pour séparer les alertes */
+}
+
+.button-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start; /* Alignement des boutons à gauche */
+  margin-top: 30px; /* Marge supérieure pour séparer les boutons */
+}
+
+.primary-button {
+  margin-right: 10px; /* Marge entre les boutons */
 }
